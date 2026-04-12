@@ -503,7 +503,7 @@
       set('pressure',v(d.baromrelin,2));
       if(prevPressure!==null){
         const diff=d.baromrelin-prevPressure;
-        set('pressure-trend',diff>0.01?'Rising ↑':diff<-0.01?'Falling ↓':'Steady →');
+        set('pressure-trend',diff>0.01?'Rising':diff<-0.01?'Falling':'Steady');
       }
       prevPressure=d.baromrelin;
 
