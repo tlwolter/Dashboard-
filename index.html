@@ -418,7 +418,7 @@
   const REFRESH_SECONDS = 60;
   // ───────────────────────────────────────────────────
 
-  const API_URL=`https://rt.ambientweather.net/v1/devices?applicationKey=${APP_KEY}&apiKey=${API_KEY}&limit=1`;
+  const API_URL=`https://ambient-weather-proxy.tlwolter.workers.dev/;
   let tempHigh=null,tempLow=null,lastDay=new Date().getDate(),prevPressure=null,lastWindDeg=null;
 
   function checkReset(){const t=new Date().getDate();if(t!==lastDay){tempHigh=null;tempLow=null;lastDay=t;}}
