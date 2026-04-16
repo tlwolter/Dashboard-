@@ -1,6 +1,6 @@
 ﻿{
-  "name": "Weather Dashboard",
-  "short_name": "Weather",
+  "name": "Chatfield Weather",
+  "short_name": "Chatfield",
   "start_url": ".",
   "display": "standalone",
   "background_color": "#000000",
